@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: red;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    margin: 0px 12px;
+}
+
+table{
+    border: 1px solid black;
+    
+}

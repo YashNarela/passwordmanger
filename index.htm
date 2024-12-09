@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>home</li>
+        <li>About Us</li>
+        <li>Contact</li>
+        <li></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Password Manager</h1>
+        <h2>Yours Password</h2>
+
+        <table>
+  <tr>
+    <th>Website</th>
+    <th>Username</th>
+    <th>Password</th>
+    <th>Delete</th>
+
+  </tr>
+  <tr>
+    <td>google</td>
+    <td>yashnarela01@gmail.com</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+<form action="/submit-login" method="post">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+    <button id="btn" type="submit">Login</button>
+  </form>
+  <script src="/script.js"></script>
+
+    </div>
+  </body>
+</html>
